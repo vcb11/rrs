@@ -1,7 +1,7 @@
 name: Revendor
 on:
   push:
-    branches: [upstream-sync]
+    branches: [main]
     paths: ['.github/workflows/revendor.yml']
 permissions:
   contents: write
